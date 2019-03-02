@@ -52,9 +52,8 @@ class Register extends Component {
       <main className="pa4 black-80">
         <div className="measure">
           <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-            <legend className="f1 fw6 ph0 mh0">Register</legend>
             <div className="mt3">
-              <label className="db fw6 lh-copy f6" htmlFor="name">Name</label>
+              <label className="db fw6 lh-copy f6" htmlFor="name">姓名</label>
               <input className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" 
               type="text" 
               name="name"  
@@ -62,7 +61,7 @@ class Register extends Component {
               onChange={this.onNameChange}/>
             </div>
             <div className="mt3">
-              <label className="db fw6 lh-copy f6" htmlFor="Email">Email</label>
+              <label className="db fw6 lh-copy f6" htmlFor="Email">信箱</label>
               <input className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" 
               type="text" 
               name="Email"  
@@ -70,7 +69,7 @@ class Register extends Component {
               onChange={this.onEmailChange}/>
             </div>
             <div className="mv3">
-              <label className="db fw6 lh-copy f6" htmlFor="password">Password</label>
+              <label className="db fw6 lh-copy f6" htmlFor="password">密碼</label>
               <input className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" 
               type="password" 
               name="password"  
@@ -82,7 +81,7 @@ class Register extends Component {
             <input 
               className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" 
               type="submit" 
-              value="Register"
+              value="註冊"
               onClick={this.onSubmitSignIn} />
           </div>
         </div>

@@ -44,9 +44,8 @@ class Signin extends Component {
       <main className="pa4 black-80">
         <div className="measure">
           <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-            <legend className="f1 fw6 ph0 mh0">Sign In</legend>
             <div className="mt3">
-              <label className="db fw6 lh-copy f6" htmlFor="email-address">Email</label>
+              <label className="db fw6 lh-copy f6" htmlFor="email-address">信箱</label>
               <input 
                 className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" 
                 type="email" 
@@ -55,7 +54,7 @@ class Signin extends Component {
                 onChange={this.onEmailChange}/>
             </div>
             <div className="mv3">
-              <label className="db fw6 lh-copy f6" htmlFor="password">Password</label>
+              <label className="db fw6 lh-copy f6" htmlFor="password">密碼</label>
               <input className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" 
               type="password" 
               name="password"  
@@ -67,11 +66,11 @@ class Signin extends Component {
             <input 
               className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" 
               type="submit" 
-              value="Sign in"
+              value="登入"
               onClick={this.onSubmitSignIn} />
           </div>
           <div className="lh-copy mt3">
-            <a href="#0" className="f6 link dim black db" onClick={() => onRouteChange('register')}>Register</a>
+            <a href="#0" className="f6 link dim black db" onClick={() => onRouteChange('register')}>註冊</a>
           </div>
         </div>
       </main>
